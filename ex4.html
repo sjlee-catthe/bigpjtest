@@ -1,0 +1,201 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#f8fcfb] group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7f3f1] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0e1b19]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#101918] text-lg font-bold leading-tight tracking-[-0.015em]">농산물 가격 예측</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#101918] text-sm font-medium leading-normal" href="index.html">홈</a>
+              <a class="text-[#101918] text-sm font-medium leading-normal" href="ex4.html">예측</a>
+              <a class="text-[#101918] text-sm font-medium leading-normal" href="ex2.html">보고서</a>
+              <a class="text-[#101918] text-sm font-medium leading-normal" href="ex3.html">이슈</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e7f3f1] text-[#0e1b19] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#0e1b19]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDCbNf3F2YGQ2UYJsuGTlAMzLvJuoZGGwLPfTy9mHVdQatI1OMXtdkOcGoNRea0IdKkhIYpAeXEwAO7lWzfdeo2s-Ns01YzwJ0fz7ATh7IUTk7hcTzWeACSXjN00RCYenJU5RJ2SAals4mXDQfN-J4gTvidg-oD3CzvbR4kDtlKO2x9WY5DtBrbaaw8c7dtvedE9OCQMlomcO0Op5nTZ4xIMxN_JZrlRS5SkrdqHFW01ouSzG1qtBCaproYtqrwl2kNA3kS1o_Dy6Bz");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight min-w-72">사과 가격 예측</p></div>
+            <div class="flex flex-wrap gap-4 p-4">
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">예상 가격</p>
+                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">$2.50/lb</p>
+              </div>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">예측 날짜</p>
+                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">2024-03-15</p>
+              </div>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">요약</p>
+                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">
+                  사과 가격은 안정적인 수요와 공급으로 인해 다음 달 동안 안정적으로 유지될 것으로 예상됩니다.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-4 px-4 py-6">
+              <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#d1e6e4] p-6">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">과거 및 예상 가격 추세</p>
+                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path
+                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
+                      fill="url(#paint0_linear_1131_5935)"
+                    ></path>
+                    <path
+                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
+                      stroke="#50958e"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                    ></path>
+                    <defs>
+                      <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#e8f3f1"></stop>
+                        <stop offset="1" stop-color="#e8f3f1" stop-opacity="0"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="flex justify-around">
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2023-09</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2023-10</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2023-11</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2023-12</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2024-01</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2024-02</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2024-03</p>
+                    <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">2024-04</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#d1e6e4] p-6">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">주요 변수 기여도</p>
+                <div class="grid min-h-[180px] gap-x-4 gap-y-6 grid-cols-[auto_1fr] items-center py-3">
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 1</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 50%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 2</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 90%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 3</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 50%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 4</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 70%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 5</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 80%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 6</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 30%;"></div></div>
+                  <p class="text-[#50958e] text-[13px] font-bold leading-normal tracking-[0.015em]">변수 7</p>
+                  <div class="h-full flex-1"><div class="border-[#50958e] bg-[#e8f3f1] border-r-2 h-full" style="width: 30%;"></div></div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">모델 세부 정보</h2>
+            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
+                <p class="text-[#50958e] text-sm font-normal leading-normal">R-제곱</p>
+                <p class="text-[#0e1b19] text-sm font-normal leading-normal">0.85</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
+                <p class="text-[#50958e] text-sm font-normal leading-normal">모델 설명</p>
+                <p class="text-[#0e1b19] text-sm font-normal leading-normal">이 예측은 과거 가격 데이터와 다양한 영향 요인을 고려하는 시계열 모델을 기반으로 합니다.</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
+                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 유형</p>
+                <p class="text-[#0e1b19] text-sm font-normal leading-normal">시계열 데이터</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
+                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 출처</p>
+                <p class="text-[#0e1b19] text-sm font-normal leading-normal">농업 시장 데이터 제공업체</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
+                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 기간</p>
+                <p class="text-[#0e1b19] text-sm font-normal leading-normal">2020-01-01 ~ 2024-02-29</p>
+              </div>
+            </div>
+            <div class="flex justify-stretch">
+              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-start">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">CSV 다운로드</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">PDF 보고서 생성</span>
+                </button>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">문의하기</span>
+                </button>
+              </div>
+            </div>
+            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">추가 정보</h2>
+            <div class="pb-3">
+              <div class="flex border-b border-[#d1e6e4] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#48e4d4] text-[#0e1b19] pb-[13px] pt-4" href="#">
+                  <p class="text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]">예측 기반</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#50958e] pb-[13px] pt-4" href="#">
+                  <p class="text-[#50958e] text-sm font-bold leading-normal tracking-[0.015em]">현장 적용</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#50958e] pb-[13px] pt-4" href="#">
+                  <p class="text-[#50958e] text-sm font-bold leading-normal tracking-[0.015em]">시뮬레이터</p>
+                </a>
+              </div>
+            </div>
+            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              이 예측은 과거 가격 데이터, 날씨 패턴, 시장 동향 및 경제 지표에 대한 포괄적인 분석을 기반으로 합니다. 우리 모델은 고급 통계 기술을 통합하여 미래 가격 변동에 대한
+              신뢰할 수 있는 예측을 제공합니다.
+            </p>
+            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              이 예측은 농부들이 심기 및 수확 일정에 대한 정보에 입각한 결정을 내리는 데 사용할 수 있으며, 구매자는 구매 전략을 최적화하는 데 사용할 수 있습니다. 제공된 통찰력은
+              이해 관계자가 위험을 완화하고 수익성을 극대화하는 데 도움이 될 수 있습니다.
+            </p>
+            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              우리 시뮬레이터를 사용하면 사용자가 주요 변수를 조정하고 미래 가격에 미치는 잠재적 영향을 관찰할 수 있습니다. 이 대화형 도구는 농업 시장에 영향을 미치는 요인에 대한
+              더 깊은 이해를 제공합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
