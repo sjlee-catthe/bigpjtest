@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -5,7 +6,7 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
     />
 
     <title>Stitch Design</title>
@@ -14,19 +15,21 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   </head>
   <body>
-    <div class="relative flex size-full min-h-screen flex-col bg-[#f8fcfb] group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#f9fbfb] group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
-        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7f3f1] px-10 py-3">
-          <div class="flex items-center gap-4 text-[#0e1b19]">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e9f1f0] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#101918]">
             <div class="size-4">
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z"
                   fill="currentColor"
                 ></path>
               </svg>
             </div>
-            <h2 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em]">에코 필드 예측</h2>
+            <h2 class="text-[#101918] text-lg font-bold leading-tight tracking-[-0.015em]">농산물 가격 예측</h2>
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
@@ -36,9 +39,9 @@
               <a class="text-[#101918] text-sm font-medium leading-normal" href="ex3.html">이슈</a>
             </div>
             <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e7f3f1] text-[#0e1b19] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#e9f1f0] text-[#101918] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
             >
-              <div class="text-[#0e1b19]" data-icon="Bell" data-size="20px" data-weight="regular">
+              <div class="text-[#101918]" data-icon="Bell" data-size="20px" data-weight="regular">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
                   <path
                     d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
@@ -48,154 +51,157 @@
             </button>
             <div
               class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAQ1mYrA__Mc_XHeFJWiEJE5wp6yC5gvHKx2BXXg-G-N2Zi5vrtDzmqPSxuRCcSmnz3KI3ls62ETshCld2VbW6xd9-DhMI0D-l8b_vNOZBOm_7FwttFBkmAd3oEoandM0WfP7sGvOqbUAdQb6C0PEnHa0fKY8s86ipMTlpzaB_z8KxRuEem69V_Q6lxxHGeeUT1HVoztoioITklASFLBsQvIGOdRqc6ob5BfFgsv21YlekULEW8VmSy9WUvIp1fxIq04tWNjH65oRfB");'
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCXms0yxEBPtKAgdlVSlM8tzyb8zHvPdjZRbqmLrj4kZWgQnUY85XPaxQkKOh34V0Skm_qPeiq5PBe097rd_mhDPvfrO4WCjFQ_m993W0tYabSNJfa_tTQOi2ZSmk7-REfwOwVztk2YEiBEHc6K73xf-Eynei7Vq2DL_fcROmwEdKjkWTDMo4-lLgGAQcbRD7u-Ar6QpoCj4H8fqnziemr34XVX6-1T05Rx7oGzcrPizJ-N6MFzDRSgj_ffc5qc0paxRVSNXkuurHc_");'
             ></div>
           </div>
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight min-w-72">보고서</p></div>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">보고서 제목</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">2024년 하반기 농산물 가격 동향 및 전망 보고서</p>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">핵심 요약</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              이 보고서는 2024년 하반기 주요 농산물(배추, 사과, 양파)의 가격 동향을 분석하고, 향후 전망 및 전략적 제언을 제시합니다. 기상 조건, 재배 면적 변화, 수요 변동 등 다양한
-              요인을 고려하여 가격 변동 가능성을 예측하고, 농가 및 관련 업계 종사자들에게 유용한 정보를 제공하고자 합니다.
-            </p>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">품목별 가격 동향</h2>
-            <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">배추</h3>
-            <div class="flex flex-wrap gap-4 px-4 py-6">
-              <div class="flex min-w-72 flex-1 flex-col gap-2">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">배추 가격 동향</p>
-                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">현재가: 타니아 시가 배추 가격: 15,000원/kg</p>
-                <div class="flex gap-1">
-                  <p class="text-[#4e978e] text-base font-normal leading-normal">2024년 1월 - 2024년 12월</p>
-                  <p class="text-[#078830] text-base font-medium leading-normal">가격 변동: +10%</p>
-                </div>
-                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
-                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
-                      fill="url(#paint0_linear_1131_5935)"
-                    ></path>
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
-                      stroke="#4e978e"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    ></path>
-                    <defs>
-                      <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#e7f3f1"></stop>
-                        <stop offset="1" stop-color="#e7f3f1" stop-opacity="0"></stop>
-                      </linearGradient>
-                    </defs>
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#101918] tracking-light text-[32px] font-bold leading-tight min-w-72">게시판</p></div>
+
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 7월 3주차 주요 키워드 : 유망</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 7월 3주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
                   </svg>
-                  <div class="flex justify-around">
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">1월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">3월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">5월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">7월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">9월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">11월</p>
-                  </div>
                 </div>
               </div>
             </div>
-            <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">사과</h3>
-            <div class="flex flex-wrap gap-4 px-4 py-6">
-              <div class="flex min-w-72 flex-1 flex-col gap-2">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">사과 가격 동향</p>
-                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">현재가: 아리아 사과 가격: 20,000원/kg</p>
-                <div class="flex gap-1">
-                  <p class="text-[#4e978e] text-base font-normal leading-normal">2024년 1월 - 2024년 12월</p>
-                  <p class="text-[#078830] text-base font-medium leading-normal">가격 변동: +5%</p>
-                </div>
-                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
-                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
-                      fill="url(#paint0_linear_1131_5935)"
-                    ></path>
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
-                      stroke="#4e978e"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    ></path>
-                    <defs>
-                      <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#e7f3f1"></stop>
-                        <stop offset="1" stop-color="#e7f3f1" stop-opacity="0"></stop>
-                      </linearGradient>
-                    </defs>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 7월 2주차 주요 키워드 : 생강</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 7월 2주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
                   </svg>
-                  <div class="flex justify-around">
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">1월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">3월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">5월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">7월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">9월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">11월</p>
-                  </div>
                 </div>
               </div>
             </div>
-            <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">양파</h3>
-            <div class="flex flex-wrap gap-4 px-4 py-6">
-              <div class="flex min-w-72 flex-1 flex-col gap-2">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">양파 가격 동향</p>
-                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">현재가: 스페인 양파 가격: 3,000원/kg</p>
-                <div class="flex gap-1">
-                  <p class="text-[#4e978e] text-base font-normal leading-normal">2024년 1월 - 2024년 12월</p>
-                  <p class="text-[#e73108] text-base font-medium leading-normal">가격 변동: -3%</p>
-                </div>
-                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
-                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z"
-                      fill="url(#paint0_linear_1131_5935)"
-                    ></path>
-                    <path
-                      d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25"
-                      stroke="#4e978e"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    ></path>
-                    <defs>
-                      <linearGradient id="paint0_linear_1131_5935" x1="236" y1="1" x2="236" y2="149" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#e7f3f1"></stop>
-                        <stop offset="1" stop-color="#e7f3f1" stop-opacity="0"></stop>
-                      </linearGradient>
-                    </defs>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 7월 1주차 주요 키워드 : 배추</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 7월 1주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
                   </svg>
-                  <div class="flex justify-around">
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">1월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">3월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">5월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">7월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">9월</p>
-                    <p class="text-[#4e978e] text-[13px] font-bold leading-normal tracking-[0.015em]">11월</p>
-                  </div>
                 </div>
               </div>
             </div>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">주요 이슈</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              최근 기상 이변으로 인한 작황 부진이 일부 품목 가격 상승의 주요 원인으로 작용하고 있습니다. 특히, 배추와 사과는 생산량 감소 폭이 커 가격 상승세가 두드러질 것으로
-              예상됩니다. 반면, 양파는 재배 면적 증가로 공급량이 늘어 가격 안정세를 보일 전망입니다.
-            </p>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">종합 전망 및 전략 제언</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              2024년 하반기 농산물 시장은 전반적으로 가격 변동성이 클 것으로 예상됩니다. 농가에서는 기상 정보와 시장 동향을 면밀히 주시하며 작물 선택 및 재배 계획을 수립해야
-              합니다. 정부는 가격 안정을 위한 수급 조절 정책을 강화하고, 소비자들은 대체재 활용 및 구매 시기 조절을 통해 가격 변동에 대응할 필요가 있습니다.
-            </p>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">면책 조항</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              이 보고서의 내용은 예측 정보에 기반하며, 실제 결과와 차이가 있을 수 있습니다. 투자 결정 시에는 전문가의 조언을 구하시기 바랍니다.
-            </p>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">작성자 정보</h2>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">농산물 가격 예측 연구팀, 이서영 연구원</p>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 6월 4주차 주요 키워드 : 상추</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 6월 4주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 6월 3주차 주요 키워드 : 감자</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 6월 3주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 6월 2주차 주요 키워드 : 파</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 6월 2주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 6월 1주차 주요 키워드 : 고추</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 6월 1주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 5월 4주차 주요 키워드 : 양파</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 5월 4주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 5월 3주차 주요 키워드 : 홍고추</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 5월 3주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 5월 2주차 주요 키워드 : 시 나물</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 5월 2주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 bg-[#f5f7f6] px-6 min-h-[72px] py-3 justify-between border-b border-[#e9f1f0]">
+              <div class="flex flex-col justify-center">
+                <p class="text-[#101918] text-base font-medium leading-normal line-clamp-1">2024년 5월 1주차 주요 키워드 : 애호박</p>
+                <p class="text-[#6c7b7a] text-sm font-normal leading-normal line-clamp-2">2024년 5월 1주  주요 키워드 및 분석</p>
+              </div>
+              <div class="shrink-0">
+                <div class="text-[#101918] flex size-8 items-center justify-center p-2 cursor-pointer hover:bg-[#e0e8e7] rounded-full transition-colors duration-200 hover:rotate-180">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
