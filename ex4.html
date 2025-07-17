@@ -5,7 +5,7 @@
       rel="stylesheet"
       as="style"
       onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
     />
 
     <title>Stitch Design</title>
@@ -54,24 +54,63 @@
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight min-w-72">사과 가격 예측</p></div>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight min-w-72">사과 가격 예측</p>
+            </div>
             <div class="flex flex-wrap gap-4 p-4">
-              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">예상 가격</p>
-                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">$2.50/lb</p>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f5f3]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">오늘의 예측</p>
+                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">$2.20/kg</p>
+                <div class="flex gap-1">
+                  <p class="text-[#50958e] text-base font-normal leading-normal">전일 대비</p>
+                  <p class="text-[#e22e2e] text-base font-medium leading-normal">-1.2%</p>
+                </div>
+                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path
+                      d="M0 45C18.1538 45 18.1538 73 36.3077 73C54.4615 73 54.4615 11 72.6154 11C90.7692 11 90.7692 119 108.923 119C127.077 119 127.077 27 145.231 27C163.385 27 163.385 101 181.538 101C199.692 101 199.692 93 217.846 93C236 93 236 109 254.154 109C272.308 109 272.308 11 290.462 11C308.615 11 308.C453.846 93 453.846 11 472 11"
+                      stroke="#e22e2e"
+                      stroke-width="2"
+                    ></path>
+                  </svg>
+                </div>
               </div>
-              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">예측 날짜</p>
-                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">2024-03-15</p>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f5f3]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">주간 예측</p>
+                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">$2.15/kg</p>
+                <div class="flex gap-1">
+                  <p class="text-[#50958e] text-base font-normal leading-normal">전주 대비</p>
+                  <p class="text-[#e22e2e] text-base font-medium leading-normal">-2.5%</p>
+                </div>
+                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path
+                      d="M0 45C18.1538 45 18.1538 73 36.3077 73C54.4615 73 54.4615 11 72.6154 11C90.7692 11 90.7692 119 108.923 119C127.077 119 127.077 27 145.231 27C163.385 27 163.385 101 181.538 101C199.692 101 199.692 93 217.846 93C236 93 236 109 254.154 109C272.308 109 272.308 11 290.462 11C308.615 11 308.C453.846 93 453.846 11 472 11"
+                      stroke="#e22e2e"
+                      stroke-width="2"
+                    ></path>
+                  </svg>
+                </div>
               </div>
-              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f3f1]">
-                <p class="text-[#0e1b19] text-base font-medium leading-normal">요약</p>
-                <p class="text-[#0e1b19] tracking-light text-2xl font-bold leading-tight">
-                  사과 가격은 안정적인 수요와 공급으로 인해 다음 달 동안 안정적으로 유지될 것으로 예상됩니다.
-                </p>
+              <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#e8f5f3]">
+                <p class="text-[#0e1b19] text-base font-medium leading-normal">월간 예측</p>
+                <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">$2.00/kg</p>
+                <div class="flex gap-1">
+                  <p class="text-[#50958e] text-base font-normal leading-normal">전월 대비</p>
+                  <p class="text-[#e22e2e] text-base font-medium leading-normal">-5.0%</p>
+                </div>
+                <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                  <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path
+                      d="M0 45C18.1538 45 18.1538 73 36.3077 73C54.4615 73 54.4615 11 72.6154 11C90.7692 11 90.7692 119 108.923 119C127.077 119 127.077 27 145.231 27C163.385 27 163.385 101 181.538 101C199.692 101 199.692 93 217.846 93C236 93 236 109 254.154 109C272.308 109 272.308 11 290.462 11C308.615 11 308.C453.846 93 453.846 11 472 11"
+                      stroke="#e22e2e"
+                      stroke-width="2"
+                    ></path>
+                  </svg>
+                </div>
               </div>
             </div>
-            <div class="flex flex-wrap gap-4 px-4 py-6">
+<div class="flex flex-wrap gap-4 px-4 py-6">
               <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#d1e6e4] p-6">
                 <p class="text-[#0e1b19] text-base font-medium leading-normal">과거 및 예상 가격 추세</p>
                 <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
@@ -125,75 +164,179 @@
                 </div>
               </div>
             </div>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">모델 세부 정보</h2>
-            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
-              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
-                <p class="text-[#50958e] text-sm font-normal leading-normal">R-제곱</p>
-                <p class="text-[#0e1b19] text-sm font-normal leading-normal">0.85</p>
+            <div class="bg-[#f0f9f8] rounded-xl p-6 mb-8 mt-6">
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <div class="flex flex-wrap justify-between gap-3 px-4 pt-4 pb-2">
+                  <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight min-w-72">농업 생산물 가격 평가 및 예측 보고서</p>
+                </div>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-1 pt-1 px-4">분석 번호: AG2025071401</p>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">분석 날짜: 2025년 07월 14일</p>
               </div>
-              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
-                <p class="text-[#50958e] text-sm font-normal leading-normal">모델 설명</p>
-                <p class="text-[#0e1b19] text-sm font-normal leading-normal">이 예측은 과거 가격 데이터와 다양한 영향 요인을 고려하는 시계열 모델을 기반으로 합니다.</p>
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">1. 보고서 개요</h2>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">보고서 목적</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  이 보고서는 쌀의 가격 동향을 분석하고, 향후 가격을 예측하여 생산자 및 유통업자의 실질적인 의사결정(생산, 재고, 유통 등)을 지원하는 것을 목적으로 합니다.
+                </p>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">분석 대상</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  쌀(백미, 20kg 포대 기준) 국내 시장
+                </p>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">분석 기간</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  2024년 1월 ~ 2025년 6월 (과거 데이터) <br/> 2025년 7월 ~ 2025년 12월 (예측 기간)
+                </p>
               </div>
-              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
-                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 유형</p>
-                <p class="text-[#0e1b19] text-sm font-normal leading-normal">시계열 데이터</p>
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">2. 농업 생산물 시장 분석</h2>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">(1) 가격 동향</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  최근 쌀의 가격은 2024년 상반기까지는 전년 대비 소폭 하락(평균 –2.3%) 추세였으나, 2024년 하반기부터 점진적으로 반등해 2025년 6월 기준 전월 대비 4.7% 상승함.
+                </p>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">월별 가격 증감률:</h4>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>2024년 1월~6월: 평균 –1.8%</li>
+                  <li>2024년 7월~12월: 평균 +2.4%</li>
+                  <li>2025년 1월~6월: 평균 +3.2%</li>
+                </ul>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">특정 이벤트 영향:</h4>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  2025년 5~6월 전국적 이상고온과 국지적 강우로 벼 생육이 저조, 공급 차질 우려가 발생하여 6월부터 가격 상승세가 가속화됨.
+                </p>
+                <div class="flex flex-wrap gap-4 px-4 py-6">
+                  <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#d1e6e4] p-6">
+                    <p class="text-[#0e1b19] text-base font-medium leading-normal">과거 가격 동향</p>
+                    <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">$2.50/kg</p>
+                    <div class="flex gap-1">
+                      <p class="text-[#578e87] text-base font-normal leading-normal">전월 대비</p>
+                      <p class="text-[#078830] text-base font-medium leading-normal">+4.7%</p>
+                    </div>
+                    <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                      <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                        <path
+                          d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 21 363.077 21C381.231 21 381.231 101 399.385 101C417.538 101 417.538 93 435.692 93C453.846 93 453.846 11 472 11"
+                          stroke="#078830"
+                          stroke-width="2"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#d1e6e4] p-6">
+                    <p class="text-[#0e1b19] text-base font-medium leading-normal">예측 가격 동향</p>
+                    <p class="text-[#0e1b19] tracking-light text-[32px] font-bold leading-tight truncate">$2.60/kg</p>
+                    <div class="flex gap-1">
+                      <p class="text-[#578e87] text-base font-normal leading-normal">전월 대비</p>
+                      <p class="text-[#078830] text-base font-medium leading-normal">+3.8%</p>
+                    </div>
+                    <div class="flex min-h-[180px] flex-1 flex-col gap-8 py-4">
+                      <svg width="100%" height="148" viewBox="-3 0 478 150" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                        <path
+                          d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 21 363.077 21C381.231 21 381.231 101 399.385 101C417.538 101 417.538 93 435.692 93C453.846 93 453.846 11 472 11"
+                          stroke="#078830"
+                          stroke-width="2"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">(2) 수급 동향</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  2025년 쌀 생산량은 전년 대비 3% 감소할 것으로 예상되며, 이는 기상 악화와 경작 면적 감소에 기인함. 재고량은 꾸준히 감소 추세.
+                </p>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">(3) 정책 및 외부 환경</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  정부의 비축미 방출 정책은 시장 가격 안정에 기여할 수 있으나, 국제 곡물 가격 상승 및 환율 변동은 국내 시장에 부담 요인으로 작용.
+                </p>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">(4) SWOT 분석</h3>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>강점 (Strengths): 안정적인 국내 생산 기반, 높은 자급률</li>
+                  <li>약점 (Weaknesses): 기후 변화에 취약한 생산 구조, 소비량 감소</li>
+                  <li>기회 (Opportunities): 가공식품 및 수출 시장 확대, 친환경 농업 수요 증가</li>
+                  <li>위협 (Threats): 수입 쌀 증가, 생산 비용 상승, 자연재해</li>
+                </ul>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  생산 인프라(기계화, 대규모 경작)는 강점, 재해 민감성 및 소비 다변화 미흡은 약점
+                </p>
               </div>
-              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
-                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 출처</p>
-                <p class="text-[#0e1b19] text-sm font-normal leading-normal">농업 시장 데이터 제공업체</p>
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">영향 및 권장 사항</h2>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">생산자</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  작황 예측에 따른 선제적 재배 계획, 품종 다변화 필요. 기상재해 대비 보험 가입 및 친환경 인증 확대 권장.
+                </p>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">유통업자</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  명절 특수기 및 공급 불안 시기 대비 선제적 재고 확보. 온라인/직거래 등 다양한 판매채널 확보, 수요예측 연계 마케팅 필요.
+                </p>
               </div>
-              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d1e6e4] py-5">
-                <p class="text-[#50958e] text-sm font-normal leading-normal">데이터 기간</p>
-                <p class="text-[#0e1b19] text-sm font-normal leading-normal">2020-01-01 ~ 2024-02-29</p>
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">3. 시나리오 분석 및 대응 전략</h2>
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">시나리오 1: 기상 악화로 인한 생산량 급감</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  예상치 못한 심각한 가뭄 또는 홍수로 인해 쌀 생산량이 10% 이상 급감하는 경우.
+                </p>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">예상 영향:</h4>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>쌀 가격 15~20% 급등</li>
+                  <li>시장 공급 부족 심화</li>
+                  <li>소비자 구매력 저하 및 정부 개입 압력 증가</li>
+                </ul>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">대응 전략:</h4>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>정부: 비축미 조기 방출, 수입선 다변화 검토, 재해 농가 지원 확대</li>
+                  <li>생산자: 내재해성 품종으로 전환, 관개 시설 확충, 농업 보험 필수 가입</li>
+                  <li>유통업자: 계약 재배 물량 확보, 재고 관리 시스템 강화, 대체 품목 확보</li>
+                </ul>
+
+                <h3 class="text-[#0e1b19] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">시나리오 2: 국제 곡물 가격 하락 및 수입량 증가</h3>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  국제 쌀 생산량 증가와 주요 수출국의 정책 변화로 국제 쌀 가격이 하락하고 국내 수입량이 급증하는 경우.
+                </p>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">예상 영향:</h4>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>국내 쌀 가격 5~10% 하락</li>
+                  <li>국내 생산 농가 수익성 악화</li>
+                  <li>시장 경쟁 심화</li>
+                </ul>
+                <h4 class="text-[#0e1b19] text-base font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-2">대응 전략:</h4>
+                <ul class="list-disc list-inside text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  <li>정부: 수입 쌀 관세 조정, 국내 소비 촉진 캠페인, 생산 조정 정책 시행</li>
+                  <li>생산자: 고품질 쌀 생산 및 브랜드화, 직거래 활성화, 쌀 가공식품 개발</li>
+                  <li>유통업자: 국내산 쌀의 품질 우수성 홍보, 차별화된 마케팅 전략 수립</li>
+                </ul>
               </div>
+
+              <div class="bg-white rounded-lg p-5 mb-4 shadow-sm border border-[#e7f3f1]">
+                <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">4. 주요 변수 기여도 분석</h2>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  본 그래프는 쌀 가격 예측 모델에 영향을 미치는 주요 변수들의 상대적 기여도를 보여줍니다. 각 변수는 예측 정확도에 다른 중요도를 가지며, 이를 통해 어떤 요인이 가격 변동에 가장 큰 영향을 미치는지 파악할 수 있습니다.
+                </p>
+                <div class="flex flex-col gap-4 px-4 py-4">
+                  <div class="flex items-center gap-4">
+                    <div class="w-[175px] h-8 bg-[#50958e] rounded-md"></div> <p class="text-[#0e1b19] text-base font-bold">날씨 (35%)</p>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[150px] h-8 bg-[#7fc0b8] rounded-md"></div> <p class="text-[#0e1b19] text-base font-bold">수급 (30%)</p>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[100px] h-8 bg-[#a7d3cd] rounded-md"></div> <p class="text-[#0e1b19] text-base font-bold">정책 (20%)</p>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[75px] h-8 bg-[#d1e6e4] rounded-md"></div> <p class="text-[#0e1b19] text-base font-bold">국제시장 (15%)</p>
+                  </div>
+                </div>
+                <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
+                  분석 결과, '날씨'는 쌀 생산량에 직접적인 영향을 미치므로 가격 변동에 가장 큰 기여를 하는 것으로 나타났습니다. 다음으로 '수급' 요인이 중요하며, 정부 '정책'과 '국제시장' 동향도 무시할 수 없는 영향을 미칩니다.
+                </p>
+              </div>
+
             </div>
-            <div class="flex justify-stretch">
-              <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-start">
-                <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">CSV 다운로드</span>
-                </button>
-                <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">PDF 보고서 생성</span>
-                </button>
-                <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e8f3f1] text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">문의하기</span>
-                </button>
-              </div>
             </div>
-            <h2 class="text-[#0e1b19] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">추가 정보</h2>
-            <div class="pb-3">
-              <div class="flex border-b border-[#d1e6e4] px-4 gap-8">
-                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#48e4d4] text-[#0e1b19] pb-[13px] pt-4" href="#">
-                  <p class="text-[#0e1b19] text-sm font-bold leading-normal tracking-[0.015em]">예측 기반</p>
-                </a>
-                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#50958e] pb-[13px] pt-4" href="#">
-                  <p class="text-[#50958e] text-sm font-bold leading-normal tracking-[0.015em]">현장 적용</p>
-                </a>
-                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#50958e] pb-[13px] pt-4" href="#">
-                  <p class="text-[#50958e] text-sm font-bold leading-normal tracking-[0.015em]">시뮬레이터</p>
-                </a>
-              </div>
-            </div>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              이 예측은 과거 가격 데이터, 날씨 패턴, 시장 동향 및 경제 지표에 대한 포괄적인 분석을 기반으로 합니다. 우리 모델은 고급 통계 기술을 통합하여 미래 가격 변동에 대한
-              신뢰할 수 있는 예측을 제공합니다.
-            </p>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              이 예측은 농부들이 심기 및 수확 일정에 대한 정보에 입각한 결정을 내리는 데 사용할 수 있으며, 구매자는 구매 전략을 최적화하는 데 사용할 수 있습니다. 제공된 통찰력은
-              이해 관계자가 위험을 완화하고 수익성을 극대화하는 데 도움이 될 수 있습니다.
-            </p>
-            <p class="text-[#0e1b19] text-base font-normal leading-normal pb-3 pt-1 px-4">
-              우리 시뮬레이터를 사용하면 사용자가 주요 변수를 조정하고 미래 가격에 미치는 잠재적 영향을 관찰할 수 있습니다. 이 대화형 도구는 농업 시장에 영향을 미치는 요인에 대한
-              더 깊은 이해를 제공합니다.
-            </p>
-          </div>
         </div>
       </div>
     </div>
